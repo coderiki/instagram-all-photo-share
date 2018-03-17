@@ -1,0 +1,7 @@
+Fotoðraflarýn jpg tipinde olmasýna dikkat et.
+Fotolarýn olduðu klasor index.py ile ayný dizinde olmalý ve path ler de buna gore yazýlmalý.
+txt dosya içinde satýr satýr path ler girilmeli.
+vars.py içinde kullanýcý adý ve diðer bilgileri gir.
+sonra dbCreate.py çalýþtýr paths.txt içindeki pathler sqlite veritabanýna kaydedilecek.
+	Yeni pathler eklemek isteyeince paths.txt içini boþaltýp yeni pathleri ekle ve bu dosyayý tekrar çalýþtýr.
+index.py çalýþtýrýnca program çalýþmaya baþlar.
