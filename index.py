@@ -1,4 +1,4 @@
-from InstagramAPI import InstagramAPI
+﻿from InstagramAPI import InstagramAPI
 import time
 import vars
 import sqlite3
@@ -19,7 +19,7 @@ with sqlite3.connect('db') as cnn:
         m = ("true", i[0])
         cursor.execute(updatePathsSql, m)
         time.sleep(vars.sleep)
-		continue
+	    continue
 
 
 
