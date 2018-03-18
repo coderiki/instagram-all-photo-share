@@ -19,7 +19,7 @@ with sqlite3.connect('db') as cnn:
         m = ("true", i[0])
         cursor.execute(updatePathsSql, m)
         time.sleep(vars.sleep)
-	    continue
+
 
 
 
