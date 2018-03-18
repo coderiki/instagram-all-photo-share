@@ -18,8 +18,8 @@ with sqlite3.connect('db') as cnn:
         InstagramAPI.uploadPhoto(photo_path, caption=caption)
         m = ("true", i[0])
         cursor.execute(updatePathsSql, m)
-        continue
         time.sleep(vars.sleep)
+		continue
 
 
 
